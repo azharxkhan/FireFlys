@@ -24,17 +24,38 @@ body {
 }
 
 @keyframes moveAround {
-    0%, 100% {
+    0% {
         transform: translate(var(--randomX1), var(--randomY1));
     }
-    25% {
-        transform: translate(calc(var(--randomX2) + 50px), calc(var(--randomY2) - 50px)); 
+    10% {
+        transform: translate(var(--randomX2), var(--randomY2));
     }
-    50% {
+    20% {
         transform: translate(var(--randomX3), var(--randomY3));
     }
-    75% {
-        transform: translate(calc(var(--randomX1) - 50px), calc(var(--randomY1) + 50px)); 
+    30% {
+        transform: translate(var(--randomX4), var(--randomY4));
+    }
+    40% {
+        transform: translate(var(--randomX5), var(--randomY5));
+    }
+    50% {
+        transform: translate(var(--randomX6), var(--randomY6));
+    }
+    60% {
+        transform: translate(var(--randomX7), var(--randomY7));
+    }
+    70% {
+        transform: translate(var(--randomX8), var(--randomY8));
+    }
+    80% {
+        transform: translate(var(--randomX9), var(--randomY9));
+    }
+    90% {
+        transform: translate(var(--randomX10), var(--randomY10));
+    }
+    100% {
+        transform: translate(var(--randomX1), var(--randomY1));
     }
 }
 
